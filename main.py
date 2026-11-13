@@ -8,3 +8,5 @@ for order in orders:
     items = order.get("items")
     total = sum([item['quantity']*item['price'] for item in items])
     print(f"{customer} - ${total}")
+
+print("Hello GITHUB")
